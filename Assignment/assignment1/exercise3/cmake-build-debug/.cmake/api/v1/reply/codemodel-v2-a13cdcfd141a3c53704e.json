@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exercise3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise3-Debug-406e8b0e2800b65decd7.json",
+					"name" : "exercise3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xinyunzhang/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/Courses/data structure/assignment/assignment1/exercise3/cmake-build-debug",
+		"source" : "/Users/xinyunzhang/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/Courses/data structure/assignment/assignment1/exercise3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

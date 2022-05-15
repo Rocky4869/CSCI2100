@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DCMAKE_C_COMPILER=/usr/local/bin/gcc-11 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-11 -G Ninja "/Users/xinyunzhang/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/Courses/data structure/assignment/assignment1/exercise3"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xinyunzhang/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/Courses/data structure/assignment/assignment1/exercise3/cmake-build-debug

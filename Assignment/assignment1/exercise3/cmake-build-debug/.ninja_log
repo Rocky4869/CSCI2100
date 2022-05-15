@@ -1,0 +1,6 @@
+# ninja log v5
+1	229	1646569053505581941	CMakeFiles/exercise3.dir/main.c.o	46d1fcac469b150b
+2	248	1646540223476944504	CMakeFiles/exercise3.dir/queue.c.o	7a8c49d507bd4e58
+230	319	1646569053595489213	exercise3	d6aaedde773f04c
+2	248	1646540223476050263	CMakeFiles/exercise3.dir/stack.c.o	7f2866a75bf955d0
+1	239	1646540313541839951	CMakeFiles/exercise3.dir/BusTerminus.c.o	9b54b5a896258db0

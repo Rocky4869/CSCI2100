@@ -1,1 +1,1 @@
-# CSCI2100
+This is a data structure course (written in C) in CUHK 🤪

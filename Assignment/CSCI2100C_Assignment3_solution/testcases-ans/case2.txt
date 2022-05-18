@@ -1,0 +1,31 @@
+int main() {
+    TreeADT ta, tb, tc, td, te, tf, tg;
+    TreeNodeADT a = NewNode('A');
+    TreeNodeADT b = NewNode('B');
+    TreeNodeADT c = NewNode('C');
+    TreeNodeADT d = NewNode('D');
+    TreeNodeADT e = NewNode('E');
+    TreeNodeADT f = NewNode('F');
+    TreeNodeADT g = NewNode('G');
+
+    td = NonemptyTree(d, 0);
+    te = NonemptyTree(e, 0);
+    tf = NonemptyTree(f, 0);
+    tg = NonemptyTree(g, 0);
+
+    tb = NonemptyTree(b, 2, td, te);
+    tc = NonemptyTree(c, 2, tf, tg);
+    ta = NonemptyTree(a, 2, tb, tc);
+
+    char* arr1 = BFS(ta);
+    for (int i = 0; i < 7; i++) {
+        printf("%c ", arr1[i]);
+    }
+    printf("\n");
+
+    int* arr2 = Tree2Array(ta);
+    for (int i = 1; i < 7; i++) {
+        printf("%d ", arr2[i]);
+    }
+    return 0;
+}
